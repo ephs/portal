@@ -1,0 +1,10 @@
+<div>
+<div class="heading">
+	<p class="title"> {{category.name}}</p>
+</div>
+</div>
+<div class="content">
+<div class="panel" *ngFor="let link of category.linkArray"> 
+  <app-link-panel [link]="link"></app-link-panel>
+</div>
+</div>
