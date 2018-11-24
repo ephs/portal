@@ -1,7 +1,7 @@
 <a href="{{link.link}}">
 	<div [@hover]="hover" (mouseenter)="toggleHover()" (mouseleave)="toggleHover()" class="panel">
 	  <p class="title">{{link.name}}</p>
-	  <img class="logo" src="{{link.logo}}" alt="">
-	<i class="ico fas fa-link"></i>
+	  <img *ngIf="link.name == 'Infinite Campus'" class="logo infinite" src="{{link.logo}}" alt="">
+	  <img *ngIf="link.name != 'Infinite Campus'" class="logo" src="{{link.logo}}" alt="">
   </div>
 </a>

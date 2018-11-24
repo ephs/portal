@@ -6,6 +6,9 @@ import { CategoryComponent } from './category/category.component';
 import { LinkPanelComponent } from './link-panel/link-panel.component';
 import { Link } from './link';
 import { Category } from './category';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatButtonModule} from '@angular/material';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,9 @@ import { Category } from './category';
   ],
   imports: [
 	  BrowserModule,
-	  BrowserAnimationsModule
+	  BrowserAnimationsModule,
+	  MatTooltipModule,
+	  MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

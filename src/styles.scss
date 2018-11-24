@@ -8,8 +8,6 @@ body {
 }
 
 html {
-  height: 100vh;
   min-height: 100%;
 }
-
-
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';

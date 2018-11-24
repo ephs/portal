@@ -1,6 +1,13 @@
 <div>
 <div class="heading">
-	<p class="title"> {{category.name}}</p>
+	<p class="title"> {{category.name}} 
+		<i *ngIf="category.name == 'Clubs'" 
+	  	class="fas fa-question-circle icon"
+		matTooltip="Want to add your club? Contact EP Programming on Discord (ephs.club/discord)"
+		matTooltipPosition=right
+		matTooltipHideDelay=500>
+		</i>
+	</p>
 </div>
 </div>
 <div class="content">

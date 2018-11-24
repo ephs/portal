@@ -2,18 +2,24 @@
   background: #060607B3;
   border-radius: .667em;
   padding: 1.677em;
-	padding-bottom: 1.25em;
+	padding-bottom: 2.5em;
   margin: .667em;
 	margin-top: 1.333em;
 	margin-left: 0em;
-  font-size: 1.25vh;
 	display: inline-block;
 	text-align: center;
 	min-width: 12.5em;
+	min-height: 12em;
+	font-size: 1.25vh;
+}
+@media screen and (max-width: 600px) {
+	.panel {
+		font-size: 1.5vh;
+	}
 }
 
 .title {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	margin-top: 0px;
 	color: white;
 }
@@ -24,6 +30,11 @@
 	opacity: .85;
 	display: block;
 	margin: auto;
+}
+
+.logo.infinite {
+	width: 12em;
+	margin-top: 15%;
 }
 
 .ico {

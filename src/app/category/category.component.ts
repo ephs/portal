@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Link } from '../link';
 import { Category } from '../category';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-category',

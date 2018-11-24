@@ -1,6 +1,6 @@
 # Portal
 
-This is an inprogress 'portal' page for Eden Praire High School and associated websites. It is currently underdevelopment. 
+This is an inprogress 'portal' page for Eden Praire High School and associated websites. It is currently under development. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
