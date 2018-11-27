@@ -1,0 +1,15 @@
+runtime: php55
+api_version: 1
+handlers:
+- url: /(.*\.(css|eot|gz|html|png|ico|js|map|pdist/portal|svg|ttf|woff|woff2|json))
+  static_files: dist/portal/\1
+  upload: dist/portal/(.*\.(css|eot|gz|html|png|ico|js|map|pdist/portal|svg|ttf|woff|woff2|json))
+- url: /.*
+  static_files: dist/portal/index.html
+  upload: dist/portal/index.html
+  secure: always
+  expiration: "15m"
+skip_files:
+  - node_modules/
+  - src/
+  - e2e/
