@@ -7,10 +7,22 @@
 	margin-top: 1.333em;
 	margin-left: 0em;
 	display: inline-block;
-	text-align: center;
 	min-width: 12.5em;
 	min-height: 12em;
 	font-size: 1.25vh;
+	text-align: center;
+}
+
+.panel-compact {
+	min-height: 3.2em;
+	padding: .85em;
+	padding-bottom: .85em;
+	display: inline-block;
+	margin: .677em;
+	margin-top: .677em;
+	margin-left: .677em;
+	min-width: 18em;
+	text-align: left;
 }
 @media screen and (max-width: 600px) {
 	.panel {
@@ -24,6 +36,12 @@
 	color: white;
 }
 
+.title-compact {
+	padding-top: .35em;
+	margin-bottom: 0em;
+	display: inline-block;
+}
+
 .logo {
 	width: 8.3333em;
 	margin: .417em;
@@ -32,10 +50,32 @@
 	margin: auto;
 }
 
+.logo-compact {
+	width: 2.7em;
+	margin: auto; 
+	float: left;
+	padding-right: 1.15em;
+	padding-top: .25em;
+	display: inline-block;
+}
+
 .logo.infinite {
 	width: 12em;
 	margin-top: 15%;
 }
+
+.logo.infinite-compact {
+	padding-top: 1.5em;
+	width: 2.7em;
+	height: auto;
+	float: left;
+	display: inline-block;
+	padding-right: 1.15em;
+	padding-top: .7em;
+	margin: auto;
+}
+
+
 
 .ico {
 	display: inline-block;
@@ -43,3 +83,7 @@
 	margin-top: .938em;
 	font-size: 1.25em;
 }
+
+
+
+

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Category } from './category';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +10,8 @@ import {MatButtonModule} from '@angular/material';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	title = 'portal';
-	categoryName = "Clubs";
+
+  compact = false;
 	clubCategory: Category = {
 		name: "Clubs",
 		linkArray: [

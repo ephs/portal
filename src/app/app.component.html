@@ -1,10 +1,12 @@
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 <div class="heading">
 	<p class="title ephs">ephs</p>
 	<p class="title portal"> portal</p>
+	<div class="toggle">
+	<mat-slide-toggle [(checked)]="compact" (change)="compact = !compact"> Compact</mat-slide-toggle>
+	</div>
 </div>
 <div class="content">
-	<app-category [category]="clubCategory"></app-category>
-	<app-category [category]="officialCategory"></app-category>
-        <app-category [category]="extraLinks"></app-category>
+	<app-category [category]="clubCategory" [class.compact]="compact" [compact]="compact"></app-category>
+	<app-category [category]="officialCategory"  [class.compact]="compact" [compact]="compact"></app-category>
+        <app-category [category]="extraLinks"  [class.compact]="compact" [compact]="compact"></app-category>
 </div>

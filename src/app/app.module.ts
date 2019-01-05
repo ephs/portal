@@ -8,6 +8,7 @@ import { Link } from './link';
 import { Category } from './category';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {MatButtonModule} from '@angular/material';
 	  BrowserModule,
 	  BrowserAnimationsModule,
 	  MatTooltipModule,
-	  MatButtonModule
+	  MatButtonModule,
+	  MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

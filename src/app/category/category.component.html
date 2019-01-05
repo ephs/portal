@@ -1,6 +1,6 @@
-<div>
-<div class="heading">
-	<p class="title"> {{category.name}} 
+<div [class.heading-div]="compact">
+<div class="heading" [class.heading-compact]="compact">
+	<p class="title" [class.title-compact]="compact"> {{category.name}} 
 		<i *ngIf="category.name == 'Clubs'" 
 	  	class="fas fa-question-circle icon"
 		matTooltip="Want to add your club? Contact EP Programming on Discord (ephs.club/discord)"
@@ -11,7 +11,7 @@
 </div>
 </div>
 <div class="content">
-<div class="panel" *ngFor="let link of category.linkArray"> 
-  <app-link-panel [link]="link"></app-link-panel>
+<div class="panel" *ngFor="let link of category.linkArray" [class.panel-compact]="compact"> 
+  <app-link-panel [link]="link" [compact]="compact"></app-link-panel>
 </div>
 </div>

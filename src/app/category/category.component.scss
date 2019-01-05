@@ -7,15 +7,32 @@
 	display: inline-block;
 }
 
+.heading-compact {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.heading-div {
+	text-align: center;
+}
+
+
+
 .title {
 	font-size: 1.25em;
-	margin-bottom: .5em;
+	margin-bottom: .5em;	
 }
 
 .panel {
 	display: inline-block;
 	margin-left: 1.25em;
 	margin-bottom: .5em;
+}
+
+.panel-compact {
+	display: block;
+	margin-bottom: 0em;
+	margin-right: 1.25em;
 }
 
 .content {
@@ -26,4 +43,6 @@
 .icon {
 	font-size: .8em;	
 }
+
+
 

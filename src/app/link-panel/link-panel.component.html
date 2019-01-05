@@ -1,7 +1,7 @@
 <a href="{{link.link}}">
-	<div [@hover]="hover" (mouseenter)="toggleHover()" (mouseleave)="toggleHover()" class="panel">
-	  <p class="title">{{link.name}}</p>
-	  <img *ngIf="link.name == 'Infinite Campus'" class="logo infinite" src="{{link.logo}}" alt="">
-	  <img *ngIf="link.name != 'Infinite Campus'" class="logo" src="{{link.logo}}" alt="">
+	<div [@hover]="hover" (mouseenter)="toggleHover()" (mouseleave)="toggleHover()" class="panel" [class.panel-compact]="compact">
+	  <p class="title" [class.title-compact]="compact">{{link.name}}</p>
+	  <img *ngIf="link.name == 'Infinite Campus'" class="logo infinite" src="{{link.logo}}" alt="" [class.infinite-compact]="compact">
+	  <img *ngIf="link.name != 'Infinite Campus'" class="logo" src="{{link.logo}}" alt="" [class.logo-compact]="compact">
   </div>
 </a>

@@ -7,7 +7,20 @@
 .title {
 	display: inline;
 	font-size: 2em;
+	.compact {
+		color: black;
+	}
 }
 .ephs {
 	color: rgb(171, 40, 40);
 }
+.toggle {
+	float: right;
+	padding: .5em;
+}
+
+.compact {
+		display: inline-block;
+		vertical-align: top;
+}
+

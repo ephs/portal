@@ -12,6 +12,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 export class CategoryComponent implements OnInit {
 
 	@Input() category: Category;
+	@Input() compact;
 
   constructor() { }
 

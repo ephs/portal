@@ -44,6 +44,7 @@ export class LinkPanelComponent implements OnInit {
 
 	hover: boolean = true;
 	@Input() link: Link;
+	@Input() compact;
 
   constructor() { }
 
