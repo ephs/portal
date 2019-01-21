@@ -29,7 +29,7 @@ export class AppComponent {
 		linkArray: [
 			{ name: "EPHS Homepage", link: "https://www.edenpr.org/ephs", logo: "assets/logos/ep.png" },
 			{ name: "Infinite Campus", link: "https://edenprairiemn.infinitecampus.org/campus/portal/eden_prairie.jsp", logo: "assets/logos/ic.png" },
-			{ name: "Schoology", link: "https://edenpr.schoology.com/login/ldap?school=46406747", logo: "assets/logos/schoology.png" },
+			{ name: "Schoology", link: "https://edenpr.schoology.com/home", logo: "assets/logos/schoology.png" },
 			{ name: "Naviance", link: "https://student.naviance.com/ephs", logo: "assets/logos/naviance.svg" },
 			{ name: "Core", link: "https://core.ephs.club", logo: "assets/logos/core.png" },
 			{ name: "FeePay", link: "https://edenprairie.feepay.com/", logo: "assets/logos/fee.png" },
