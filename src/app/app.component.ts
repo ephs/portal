@@ -40,7 +40,10 @@ export class AppComponent {
 		name: "Additional Links",
 		linkArray: [
 		{ name: "Common App", link: "https://www.commonapp.org", logo: "assets/logos/common.svg"},
-		{ name: "Coalition App", link: "http://www.coalitionforcollegeaccess.org/", logo: "assets/logos/coalition.png"},
+      { name: "Coalition App", link: "http://www.coalitionforcollegeaccess.org/", logo: "assets/logos/coalition.png"},
+      { name: "Turnitin", link: "http://www.turnitin.com", logo: "assets/logos/turnitin.png"},
+
+
 
 		]
 	};
